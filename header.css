@@ -1,0 +1,216 @@
+body{
+    height: 3000px;
+}
+.top-header{
+    display: flex;
+    height: 62px;
+    position: fixed;
+    background-color: rgb(20, 20, 20);
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 300;
+}
+.left-header{
+    display: flex;
+    background-color: rgb(20, 20, 20);
+    width: 370px;
+    align-items: center;
+}
+.middle-header{
+    display: flex;
+    flex: 1;
+    background-color: rgb(20, 20, 20);
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+}
+.right-header{
+    display: flex;
+    background-color: rgb(20, 20, 20);
+    width: 390px;
+   
+    align-items: center;
+}
+.amazon-icon{
+    left: 10px;
+    width: 110px;
+    padding: 8px 8px 8px 8px;
+    cursor: pointer;
+    position: relative; 
+    border: 1px solid transparent;
+    margin-right: 10px;
+   
+    
+}
+.amazon-icon-div{
+    display: flex;
+
+   justify-content: space-between;
+    
+    align-items: center;
+}
+.amazon-icon:hover {
+    
+    border-color: white;
+    border-radius: 3px;
+}
+.second-left-header{
+    display: flex;
+    align-items: center;
+    border: solid;
+    padding: 10px 6px 10px 3px;
+    border-radius: 3px;
+    border: 1px solid transparent;
+}
+.second-left-header:hover{
+    border-color: white;
+
+}
+.map-pointing{
+    width: 20px;
+    display: flex;
+    position: fixed;
+    top: 28px;
+    height: 17px;
+}
+.Delivering{
+    font-size: 13px;
+    font-family: roboto,arial;
+    color: rgb(184, 184, 184);
+    font-weight: 300;
+}
+.address{
+    margin-left: 22px;
+    line-height: 15px;
+}
+.update-location{
+    font-family: roboto,arial;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+}
+.top-header-button{
+    padding: 14px 32px 14px 12px;
+    font-size: 13px;
+    border: none;
+    border-radius: 3px;
+    color: rgb(87, 87, 87);
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+}
+.top-header-button:hover{
+    background-color: rgb(221, 221, 221);
+}
+.search-bar{
+    display: flex;
+    width: 380px;
+    padding: 11.5px 10px 15px 5px;
+    margin-left: -5px;
+    border: solid;
+    border-width: 1px;
+    font-size: 15px;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    border-color: rgb(201, 201, 201);
+    box-shadow: 0px 1px 1px rgba(0,0,0,0);
+    margin-right: -10px;
+    
+}
+.search-bar-icon{
+    z-index: 100;
+}
+.search-icon{
+    
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    width: 25px;
+    background-color: rgb(255, 190, 70);
+    padding: 9px 11px 9.5px 20px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.4); 
+}
+.search-icon:hover{
+    background-color: rgb(255, 180, 40);
+}
+.flag{
+    width: 25px;
+    
+}
+.en{
+    font-family: roboto,arial;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    margin-left: 2px;
+}
+.first-right-sidebar{
+    display: flex;
+    align-items: center;
+   border-radius: 3px;
+    padding: 13px 18px 13px 11px;
+    border: 1px solid transparent;
+}
+.first-right-sidebar:hover{
+    border-color: white;
+}
+.sigh-in{
+    display: flex;
+    flex-direction: column;
+    line-height: 13px;
+    
+    border: 1px solid transparent;
+    padding: 12px 20px 12px 8px;
+}
+.sigh-in:hover{
+    border-color: white;
+}
+.hello{
+    font-size: 13px;
+    font-family: roboto,arial;
+    color: white;
+}
+.Account{
+    color: white;
+    font-family: roboto,arial;
+    font-size: 15px;
+    font-weight: bold;
+}
+.right-last-second{
+    border: 1px solid transparent;
+    padding: 8px 8px 8px 8px;
+}
+.right-last-second:hover{
+    border-color: white;
+}
+.return{
+    font-family: roboto,arial;
+    font-size: 12px;
+    color: white;
+}
+.order{
+    font-family: roboto,arial;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+}
+.cart{
+    display: flex;
+    align-items: center;
+    border: 1px solid transparent;
+    padding: 4px 5px 4px 5px;
+}
+.cart:hover{
+    border-color: white;
+}
+.cart-image{
+    width: 40px;
+}
+.cart-text{
+    font-family: roboto,arial;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    
+}
